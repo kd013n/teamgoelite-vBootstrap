@@ -1,56 +1,67 @@
-:root{
-    --carouselHeight: calc(100vh - 8.5vh);
+:root {
+  --carouselHeight: calc(100vh - 8.5vh);
 }
 
-@media(min-width: 1200px) {
-    .carousel {
-        height: var(--carouselHeight);
-    }
-    
-    .carousel-inner > .carousel-item {
-        height: var(--carouselHeight);
-    }
+@media (min-width: 1200px) {
+  .carousel {
+    height: var(--carouselHeight);
+  }
+
+  .carousel-inner > .carousel-item {
+    height: var(--carouselHeight);
+  }
 }
 
-.dashboard-banner1 {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
-    margin-left: 15%;
+.dashboard-banner {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin-left: 15%;
 }
 
-.dashboard-banner1 > p {
-    font-size: 8vw;
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
-    line-height: 0.7;
-    -webkit-text-stroke: 0.25vw #ffffff;
-    -webkit-text-fill-color: transparent;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.dbline {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
 }
 
-span {
-    font-size: 8vw !important;
-    display: inline-block !important;
-    font-weight: 800 !important;
-    -webkit-text-stroke: 0.1vw #ffffff;
-    -webkit-text-fill-color: #FF1721;
+.disp1 {
+  font-size: 8vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.7;
+  -webkit-text-stroke: 0.25vw #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
+.disp2 {
+  font-size: 8vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.7;
+  -webkit-text-stroke: 0.25vw #ffffff;
+  -webkit-text-fill-color: #ff1721;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 @media (max-width: 799px) {
-    .dashboard-banner1 {
-        width: 35%;
-    }
+  .disp1,
+  .disp2 {
+    font-size: 180%;
+    line-height: 2.5vw;
+    -webkit-text-stroke: 0.2vw #ffffff;
+  }
+}
 
-    .dashboard-banner1 > h1 {
-        font-size: 180%;
-        line-height: 0.65;
-        -webkit-text-stroke: 0.2vw #ffffff;
-    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #ff1721 !important;
 }
