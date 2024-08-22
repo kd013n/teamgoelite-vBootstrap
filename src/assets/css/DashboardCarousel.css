@@ -3,9 +3,9 @@
     overflow: hidden;
 }
 
-.carousel > button {
-    height: inherit;
+.carousel-item {
 }
+
 
 .dashboard-banner1 {
     height: 100%;
