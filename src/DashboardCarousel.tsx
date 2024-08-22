@@ -6,22 +6,34 @@ import dbbanner2 from './assets/images/db-banner2.png'
 
 function DashboardCarousel() {
     return <>
-    <div id="carouselExampleAutoplaying" className="carousel slide h-75" data-bs-ride="carousel">
-        <div className="carousel-inner h-75">
-            <div className="carousel-item h-75 active">
+    <div id="carouselExampleAutoplaying" className="carousel slide " data-bs-ride="carousel">
+        <div className="carousel-inner">
+            <div className="carousel-item active">
                 <div className="dashboard-banner1 position-absolute">
-                    <h1 className="display-1">TEAM GO</h1> <br />
-                    <h1 className="display-1">ELITE</h1>
+                    <p className="display-1">TEAM <span className="spc1 thicc">GO</span></p> 
+                    <p className="display-1">ELITE</p>
                 </div>
                 <img src={dbbanner1} className="object-fit-cover w-100" alt="..."/ >
             </div>
-            <div className="carousel-item h-75">
+            <div className="carousel-item">
+                <div className="dashboard-banner1 position-absolute">
+                    <p className="display-1">WHAT'S </p>
+                    <p className="display-1"><span className="spc1 thicc">NEW?</span></p>
+                </div>
                 <img src={dbbanner2} className="object-fit-cover w-100" alt="..."/ >
             </div>
-            <div className="carousel-item h-75">
+            <div className="carousel-item">
+                <div className="dashboard-banner1 position-absolute">
+                    <p className="display-1">THE TGE</p>
+                    <p className="display-1"><span className="spc1 thicc">MISSION</span></p>
+                </div>
                 <img src={dbbanner1} className="object-fit-cover w-100" alt="..."/ >
             </div>
-            <div className="carousel-item h-75">
+            <div className="carousel-item">
+                <div className="dashboard-banner1 position-absolute">
+                    <p className="display-1">THE TGE</p>
+                    <p className="display-1"><span className="spc1 thicc">VISION</span></p>
+                </div>
                 <img src={dbbanner2} className="object-fit-cover w-100" alt="..."/ >
             </div>
         </div>

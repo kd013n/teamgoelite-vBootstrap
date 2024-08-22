@@ -1,17 +1,56 @@
-.carousel {
-    width: 100vw;
-    overflow: hidden;
+:root{
+    --carouselHeight: calc(100vh - 8.5vh);
 }
 
-.carousel-item {
+@media(min-width: 1200px) {
+    .carousel {
+        height: var(--carouselHeight);
+    }
     
+    .carousel-inner > .carousel-item {
+        height: var(--carouselHeight);
+    }
 }
-
 
 .dashboard-banner1 {
     height: 100%;
-    width: 100%;
+    width: 40%;
     display: flex;
-    align-items: center;
-    justify-content: start;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.dashboard-banner1 > p {
+    font-size: 8vw;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.7;
+    -webkit-text-stroke: 0.25vw #ffffff;
+    -webkit-text-fill-color: transparent;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+span {
+    font-size: 8vw !important;
+    display: inline-block !important;
+    font-weight: 800 !important;
+    -webkit-text-stroke: 0.1vw #ffffff;
+    -webkit-text-fill-color: #FF1721;
+}
+
+
+@media (max-width: 799px) {
+    .dashboard-banner1 {
+        width: 35%;
+    }
+
+    .dashboard-banner1 > h1 {
+        font-size: 180%;
+        line-height: 0.65;
+        -webkit-text-stroke: 0.2vw #ffffff;
+    }
 }
