@@ -23,16 +23,7 @@ function DashboardCarousel() {
                 <p className="disp1">ELITE</p>
               </div>
             </div>
-            <div className="dashboard-text">
-              <div className="d-grid gap-2 col-6 mx-auto">
-                <button className="btn btn-primary" type="button">
-                  Button
-                </button>
-                <button className="btn btn-primary" type="button">
-                  Button
-                </button>
-              </div>
-            </div>
+            <div className="dashboard-text"></div>
             <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
           </div>
           <div className="carousel-item" data-bs-interval="2300">
