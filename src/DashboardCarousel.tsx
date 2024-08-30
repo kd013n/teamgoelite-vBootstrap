@@ -13,7 +13,7 @@ function DashboardCarousel() {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2300">
+          <div className="carousel-item active" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
                 <p className="disp1">TEAM </p>
@@ -26,7 +26,7 @@ function DashboardCarousel() {
             <div className="dashboard-text"></div>
             <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2300">
+          <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
                 <p className="disp1">WHAT'S </p>
@@ -37,7 +37,7 @@ function DashboardCarousel() {
             </div>
             <img src={dbbanner2} className="object-fit-cover w-100" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2300">
+          <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
                 <p className="disp1">THE TGE</p>
@@ -48,7 +48,7 @@ function DashboardCarousel() {
             </div>
             <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2300">
+          <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
                 <p className="disp1">THE TGE</p>

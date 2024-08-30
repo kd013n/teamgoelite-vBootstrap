@@ -1,0 +1,180 @@
+.footer {
+  height: 85vh;
+  background-color: #111d32;
+  /**background: rgb(22, 36, 62);
+  background: linear-gradient(180deg, rgba(22, 36, 62, 1) 0%, #004f9f 100%);**/
+  margin-top: auto;
+  bottom: 0;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  -webkit-user-select: none;
+}
+
+.footer section {
+  margin-top: 25%;
+  margin-left: 10%;
+  color: #ffffff;
+}
+
+.footer section:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer section:nth-child(2) {
+  grid-area: 1 / 3 / 3 / 4;
+}
+
+.footer section:nth-child(3) {
+  grid-area: 1 / 4 / 4 / 5;
+}
+
+.footer section:nth-child(4) {
+  grid-area: 1 / 5 / 3 / 6;
+}
+
+.footer section:nth-child(5) {
+  grid-area: 1 / 6 / 3 / 7;
+}
+
+.footer section:nth-child(6) {
+  grid-area: 3 / 1 / 4 / 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+  padding: 10vh 0 5vh;
+}
+
+.footer-logo {
+  height: 6vw;
+  width: 6vw;
+  border-radius: 0.5vw;
+
+  background: url("/teamgoelite/src/assets/images/tgelogo.png") no-repeat;
+  background-size: cover;
+}
+
+.footer-title {
+  width: 20vw;
+  margin-left: 1vw;
+  line-height: 100%;
+
+  font-size: 3.5vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title {
+  display: block;
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding-bottom: 2vh;
+  text-decoration: none;
+}
+
+.section-links a {
+  display: block;
+  margin-bottom: 1.35vh;
+  color: #aaaaaa !important;
+  font-size: 1.25vw;
+  text-decoration: none;
+}
+
+.section-title:hover {
+  color: #ff1721 !important;
+}
+
+.section-links a:hover {
+  color: #f7323b !important;
+}
+
+.section-contact {
+  display: block;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.section-contact:hover {
+  color: #ff1721 !important;
+}
+
+.non-links {
+  display: block;
+  margin-bottom: 1.35vh;
+  color: #ffffff;
+  font-size: 1.25vw;
+  cursor: pointer;
+}
+
+.non-links:hover {
+  color: #f7323b !important;
+}
+
+.section-misc a {
+  display: block;
+  margin-bottom: 1.35vh;
+
+  color: #ffffff;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.section-misc a:hover {
+  color: #ff1721 !important;
+}
+
+.footer-follow-title {
+  font-size: 2vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer-hr {
+  padding: 0.5vh;
+  border-top: #ffffff 0.2vw solid;
+}
+
+.footer-follow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.5vw;
+}
+
+.footer-icons {
+  height: 3.25vw;
+  width: 3.25vw;
+  background-color: #111d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 100ms all ease;
+}
+
+.footer-icons a {
+  font-size: 2.25vw;
+  transition: 100ms all ease;
+}
+
+.footer-icons:hover {
+  color: #17396e !important;
+  transform: scale(1.15);
+}
+
+.footer-copyright {
+  font-size: 100%;
+  margin: 0;
+  padding-top: 3%;
+  color: #aaaaaa !important;
+}

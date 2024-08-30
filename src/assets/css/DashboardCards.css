@@ -1,0 +1,13 @@
+.card-cluster {
+  background-color: #111d32;
+  padding: 10% 5%;
+}
+
+.card {
+  background-color: #0a1325;
+  border: transparent 0px solid;
+}
+
+.card-btn {
+  background-color: #a82128 !important;
+}
