@@ -10,8 +10,13 @@
   padding: 5% 0 1% 0;
 }
 
+.cards-carousel {
+  background-color: aqua;
+}
+
 .card-cluster {
   padding: 0 12%;
+  background-color: #a82128;
 }
 
 .card {
