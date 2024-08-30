@@ -11,10 +11,11 @@
 }
 
 .cards-carousel {
-  height: 75vh;
+  display: flex;
+  padding-bottom: 5%;
 }
 .card-cluster {
-  padding: 1% 12%;
+  padding: 0 12%;
 }
 
 .card {
