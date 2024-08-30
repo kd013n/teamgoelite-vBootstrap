@@ -53,13 +53,10 @@
   padding: 10vh 0 5vh;
 }
 
-.footer-logo {
+.footer-logo img {
   height: 6vw;
   width: 6vw;
   border-radius: 0.5vw;
-
-  background: url("/teamgoelite/src/assets/images/tgelogo.png") no-repeat;
-  background-size: cover;
 }
 
 .footer-title {

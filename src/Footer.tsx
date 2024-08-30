@@ -9,6 +9,7 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
+import tgelogo from "./assets/images/tgelogo.png";
 
 const facebook = <FontAwesomeIcon icon={faFacebookF} />;
 const xtwitter = <FontAwesomeIcon icon={faXTwitter} />;
@@ -21,7 +22,9 @@ function Footer() {
     <>
       <footer className="footer w-100">
         <section>
-          <div className="footer-logo"></div>
+          <div className="footer-logo">
+            <img src={tgelogo} alt="" />
+          </div>
           <div className="footer-title">TEAM GO ELITE</div>
         </section>
 

@@ -17,13 +17,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Careers</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Careers at TGE
                       </a>
                     </div>
                   </div>
@@ -32,13 +32,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Products</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Discover our products
                       </a>
                     </div>
                   </div>
@@ -47,13 +47,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Support</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Get support
                       </a>
                     </div>
                   </div>
@@ -66,13 +66,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Testimonials</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Find out more
                       </a>
                     </div>
                   </div>
@@ -81,13 +81,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Events</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Engage with us
                       </a>
                     </div>
                   </div>
@@ -96,13 +96,13 @@ function DashboardCards() {
                   <div className="card">
                     <img src={imagerand} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">About</h5>
                       <p className="card-text">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </p>
                       <a href="#" className="btn card-btn">
-                        Go somewhere
+                        Learn more
                       </a>
                     </div>
                   </div>
