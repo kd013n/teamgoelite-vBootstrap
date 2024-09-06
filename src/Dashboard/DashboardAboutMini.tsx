@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./assets/css/DashboardAboutMini.css";
+import "./DashboardAboutMini.css";
 
-import imagerand from "./assets/images/db-banner1.png";
-import imagerand2 from "./assets/images/db-banner2.png";
-import imagerand3 from "./assets/images/db-banner3.png";
+import imagerand from "../assets/images/db-banner1.png";
+import imagerand2 from "../assets/images/db-banner2.png";
+import imagerand3 from "../assets/images/db-banner3.png";
 
 function DashboardAboutMini() {
   return (
