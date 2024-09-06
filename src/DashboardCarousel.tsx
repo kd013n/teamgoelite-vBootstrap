@@ -3,6 +3,8 @@ import "bootstrap/dist/js/bootstrap.js";
 import "./assets/css/DashboardCarousel.css";
 import dbbanner1 from "./assets/images/db-banner1.png";
 import dbbanner2 from "./assets/images/db-banner2.png";
+import dbbanner3 from "./assets/images/db-banner3.png";
+import dbbanner4 from "./assets/images/db-banner4.png";
 
 function DashboardCarousel() {
   return (
@@ -46,7 +48,7 @@ function DashboardCarousel() {
                 <p className="disp2">MISSION</p>
               </div>
             </div>
-            <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
+            <img src={dbbanner3} className="object-fit-cover w-100" alt="..." />
           </div>
           <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
@@ -57,7 +59,7 @@ function DashboardCarousel() {
                 <p className="disp2">VISION</p>
               </div>
             </div>
-            <img src={dbbanner2} className="object-fit-cover w-100" alt="..." />
+            <img src={dbbanner4} className="object-fit-cover w-100" alt="..." />
           </div>
         </div>
         <button

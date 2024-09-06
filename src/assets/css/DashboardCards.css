@@ -3,11 +3,14 @@
 }
 
 .dashboardcards-title {
-  font-size: 4.5vw;
-  font-weight: 500;
+  font-size: 5vw;
+  font-weight: 800;
   color: #d1d6e0;
   text-align: center;
-  padding: 5% 0 1% 0;
+  padding: 6% 0 3% 0;
+
+  font-family: "Roboto", sans-serif;
+  user-select: none;
 }
 
 .cards-carousel {

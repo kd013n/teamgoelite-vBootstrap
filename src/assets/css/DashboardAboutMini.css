@@ -1,0 +1,14 @@
+.dashgrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.dashleftcell {
+  grid-area: 1 / 1 / 4 / 6;
+}
+.dashrightcell {
+  grid-area: 2 / 6 / 3 / 10;
+}
