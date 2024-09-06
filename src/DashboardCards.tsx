@@ -15,7 +15,11 @@ function DashboardCards() {
               <div className="row card-cluster">
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img
+                      src={imagerand}
+                      className="card-img-top"
+                      alt="Careers"
+                    />
                     <div className="card-body">
                       <h5 className="card-title">Careers</h5>
                       <p className="card-text">
@@ -30,7 +34,11 @@ function DashboardCards() {
                 </div>
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img
+                      src={imagerand}
+                      className="card-img-top"
+                      alt="Products"
+                    />
                     <div className="card-body">
                       <h5 className="card-title">Products</h5>
                       <p className="card-text">
@@ -45,7 +53,11 @@ function DashboardCards() {
                 </div>
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img
+                      src={imagerand}
+                      className="card-img-top"
+                      alt="Support"
+                    />
                     <div className="card-body">
                       <h5 className="card-title">Support</h5>
                       <p className="card-text">
@@ -64,7 +76,11 @@ function DashboardCards() {
               <div className="row card-cluster">
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img
+                      src={imagerand}
+                      className="card-img-top"
+                      alt="Testimonials"
+                    />
                     <div className="card-body">
                       <h5 className="card-title">Testimonials</h5>
                       <p className="card-text">
@@ -79,7 +95,11 @@ function DashboardCards() {
                 </div>
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img
+                      src={imagerand}
+                      className="card-img-top"
+                      alt="Events"
+                    />
                     <div className="card-body">
                       <h5 className="card-title">Events</h5>
                       <p className="card-text">
@@ -94,7 +114,7 @@ function DashboardCards() {
                 </div>
                 <div className="col-sm">
                   <div className="card">
-                    <img src={imagerand} className="card-img-top" alt="..." />
+                    <img src={imagerand} className="card-img-top" alt="About" />
                     <div className="card-body">
                       <h5 className="card-title">About</h5>
                       <p className="card-text">

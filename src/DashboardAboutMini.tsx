@@ -3,62 +3,40 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./assets/css/DashboardAboutMini.css";
 
 import imagerand from "./assets/images/db-banner1.png";
+import imagerand2 from "./assets/images/db-banner2.png";
+import imagerand3 from "./assets/images/db-banner3.png";
 
 function DashboardAboutMini() {
   return (
     <>
       <div className="container dashgrid">
         <div className="dashleftcell">
-          <h1 className="display-2">#KnowYouCan</h1>
-          <p>
+          <h1 className="dashabout-title">#KnowYouCan</h1>
+          <p className="dashabout-text">
             Team Go Elite is a ﬁnancial organization organized to provide
-            ﬁnancial literacy and advocate risk management to Filipino families.{" "}
-            <br />
+            ﬁnancial literacy and advocate risk management to Filipino families.
             We also provide opportunities to Filipinos to achieve ﬁnancial
-            freedom; We mentor, we empower, and we lead you to be successful.
+            freedom. <br /> <br />
+            We mentor, we empower, and we lead you to be successful.
           </p>
         </div>
         <div className="dashrightcell">
           <div
             id="carouselExampleAutoplaying"
-            className="carousel slide"
+            className="carousel slide dashabout-carousel"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item active" data-bs-interval="2000">
                 <img src={imagerand} className="d-block w-100" alt="..." />
               </div>
-              <div className="carousel-item">
-                <img src={imagerand} className="d-block w-100" alt="..." />
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src={imagerand2} className="d-block w-100" alt="..." />
               </div>
-              <div className="carousel-item">
-                <img src={imagerand} className="d-block w-100" alt="..." />
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src={imagerand3} className="d-block w-100" alt="..." />
               </div>
             </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
