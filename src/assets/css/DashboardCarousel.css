@@ -52,6 +52,21 @@
   user-select: none;
 }
 
+.dashboard-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.dashboard-text p {
+  text-align: right;
+}
+
+.dashboard-text button {
+  width: 10vw;
+  background-color: #a82128 !important;
+}
+
 @media (max-width: 799px) {
   .disp1,
   .disp2 {

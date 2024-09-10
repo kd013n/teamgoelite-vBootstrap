@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import "./assets/css/DashboardCarousel.css";
-import dbbanner1 from "./assets/images/db-banner1.png";
-import dbbanner2 from "./assets/images/db-banner2.png";
-import dbbanner3 from "./assets/images/db-banner3.png";
-import dbbanner4 from "./assets/images/db-banner4.png";
+import "../assets/css/DashboardCarousel.css";
+import dbbanner1 from "../assets/images/db-banner1.png";
+import dbbanner2 from "../assets/images/db-banner2.png";
+import dbbanner3 from "../assets/images/db-banner3.png";
+import dbbanner4 from "../assets/images/db-banner4.png";
 
-function DashboardCarousel() {
+export default function DashboardCarousel() {
   return (
     <>
       <div
@@ -24,10 +24,19 @@ function DashboardCarousel() {
               <div className="dbline">
                 <p className="disp1">ELITE</p>
               </div>
+
+              <div className="dashboard-text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  facilis culpa ipsa, nam tenetur delectus fugiat quae alias
+                  animi dignissimos assumenda modi
+                </p>
+                <button className="btn">See more</button>
+              </div>
             </div>
-            <div className="dashboard-text"></div>
             <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
           </div>
+
           <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
@@ -36,9 +45,19 @@ function DashboardCarousel() {
               <div className="dbline">
                 <p className="disp2">NEW?</p>
               </div>
+
+              <div className="dashboard-text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  facilis culpa ipsa, nam tenetur delectus fugiat quae alias
+                  animi dignissimos assumenda modi
+                </p>
+                <button className="btn">See more</button>
+              </div>
             </div>
             <img src={dbbanner2} className="object-fit-cover w-100" alt="..." />
           </div>
+
           <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
@@ -47,9 +66,18 @@ function DashboardCarousel() {
               <div className="dbline">
                 <p className="disp2">MISSION</p>
               </div>
+
+              <div className="dashboard-text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  facilis culpa ipsa, nam tenetur delectus fugiat quae alias
+                  animi dignissimos assumenda modi
+                </p>
+              </div>
             </div>
             <img src={dbbanner3} className="object-fit-cover w-100" alt="..." />
           </div>
+
           <div className="carousel-item" data-bs-interval="3500">
             <div className="dashboard-banner position-absolute">
               <div className="dbline">
@@ -57,6 +85,14 @@ function DashboardCarousel() {
               </div>
               <div className="dbline">
                 <p className="disp2">VISION</p>
+              </div>
+
+              <div className="dashboard-text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  facilis culpa ipsa, nam tenetur delectus fugiat quae alias
+                  animi dignissimos assumenda modi
+                </p>
               </div>
             </div>
             <img src={dbbanner4} className="object-fit-cover w-100" alt="..." />
@@ -90,5 +126,3 @@ function DashboardCarousel() {
     </>
   );
 }
-
-export default DashboardCarousel;

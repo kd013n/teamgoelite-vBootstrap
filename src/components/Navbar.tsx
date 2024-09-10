@@ -1,10 +1,10 @@
-import "./assets/css/Navbar.css";
+import "../assets/css/Navbar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 import { Link } from "react-router-dom";
 
-import tgeLogo from "./assets/images/tgelogo.png";
+import tgeLogo from "../assets/images/tgelogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 

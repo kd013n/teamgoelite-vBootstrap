@@ -1,15 +1,15 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import "./assets/css/Footer.css";
+import "../assets/css/Footer.css";
 
-import "./assets/css/Footer.css";
+import "../assets/css/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
-import tgelogo from "./assets/images/tgelogo.png";
+import tgelogo from "../assets/images/tgelogo.png";
 
 const facebook = <FontAwesomeIcon icon={faFacebookF} />;
 const xtwitter = <FontAwesomeIcon icon={faXTwitter} />;

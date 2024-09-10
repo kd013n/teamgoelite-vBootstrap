@@ -15,12 +15,23 @@
   user-select: none;
 }
 
+.cards-container {
+  height: 40vw;
+  width: 100%;
+}
+
 .cards-carousel {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.cards-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .card-cluster {

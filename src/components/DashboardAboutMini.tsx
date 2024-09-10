@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./assets/css/DashboardAboutMini.css";
+import "../assets/css/DashboardAboutMini.css";
 
-import imagerand from "./assets/images/db-banner1.png";
-import imagerand2 from "./assets/images/db-banner2.png";
-import imagerand3 from "./assets/images/db-banner3.png";
+import imagerand from "../assets/images/db-banner1.png";
+import imagerand2 from "../assets/images/db-banner2.png";
+import imagerand3 from "../assets/images/db-banner3.png";
 
 export default function DashboardAboutMini() {
   return (
@@ -28,13 +28,13 @@ export default function DashboardAboutMini() {
               data-bs-ride="carousel"
             >
               <div className="carousel-inner dashabout-inner">
-                <div className="carousel-item active" data-bs-interval="1000">
+                <div className="carousel-item active" data-bs-interval="2000">
                   <img src={imagerand} className="w-100" alt="..." />
                 </div>
-                <div className="carousel-item" data-bs-interval="1000">
+                <div className="carousel-item" data-bs-interval="2000">
                   <img src={imagerand2} className="w-100" alt="..." />
                 </div>
-                <div className="carousel-item" data-bs-interval="1000">
+                <div className="carousel-item" data-bs-interval="2000">
                   <img src={imagerand3} className="w-100" alt="..." />
                 </div>
               </div>
