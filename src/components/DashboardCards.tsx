@@ -12,7 +12,7 @@ export default function DashboardCards() {
         <div className="cards-container">
           <div id="carouselExample" className="carousel slide cards-carousel">
             <div className="carousel-inner cards-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item cards-item active">
                 <div className="row card-cluster">
                   <div className="col-sm">
                     <div className="card">
@@ -73,7 +73,7 @@ export default function DashboardCards() {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item">
+              <div className="carousel-item cards-item">
                 <div className="row card-cluster">
                   <div className="col-sm">
                     <div className="card">

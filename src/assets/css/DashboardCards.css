@@ -29,10 +29,11 @@
 
 .cards-inner {
   height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   background-color: #a82128;
+}
+
+.cards-item {
+  background-color: #ffffff;
 }
 
 .card-cluster {
