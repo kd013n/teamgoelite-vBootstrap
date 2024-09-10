@@ -1,9 +1,11 @@
-body {
+.dashmain {
   background-color: #0b111b;
   height: 50vh;
+  width: 100vw;
 }
 
 .dashgrid {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -13,7 +15,7 @@ body {
 
 .dashleftcell {
   grid-area: 1 / 1 / 4 / 5;
-  padding: 5% 15% 5% 5%;
+  padding: 5% 15% 5% 10%;
 
   display: flex;
   flex-direction: column;
@@ -22,6 +24,7 @@ body {
 }
 .dashrightcell {
   grid-area: 1 / 5 / 4 / 8;
+  padding: 5% 15% 5% 5%;
 }
 
 .dashabout-title {
@@ -36,7 +39,10 @@ body {
   text-align: justify;
 }
 
-.dashabout-carousel {
-  height: 10%;
-  padding: 5%;
+.carousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }

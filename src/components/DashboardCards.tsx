@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./DashboardCards.css";
+import "./assets/css/DashboardCards.css";
 
-import imagerand from "../assets/images/db-banner1.png";
+import imagerand from "./assets/images/db-banner1.png";
 
 function DashboardCards() {
   return (

@@ -41,7 +41,7 @@
   background-color: #ff1721 !important;
 }
 
-.nav-item:hover > button {
+.nav-item:hover > a {
   color: #ff1721 !important;
 }
 

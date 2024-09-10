@@ -1,20 +1,37 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import "./assets/css/index.css";
+import "../src/components/assets/css/index.css";
 
-import Navbar from "./Navbar.tsx";
-import DashboardCarousel from "./Dashboard/DashboardCarousel.tsx";
-import Footer from "./Footer.tsx";
-import DashboardCards from "./Dashboard/DashboardCards.tsx";
-import DashboardAboutMini from "./Dashboard/DashboardAboutMini.tsx";
+import Home from "../src/pages/Home.tsx";
+import Careers from "../src/pages/Careers.tsx";
+import Products from "../src/pages/Products.tsx";
+import Support from "../src/pages/Support.tsx";
+import NotFound from "./pages/NotFound.tsx";
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <Navbar />
-    <DashboardCarousel />
-    <DashboardCards />
-    <DashboardAboutMini />
-    <Footer />
-  </StrictMode>
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <NotFound />,
+  },
+  {
+    path: "/careers",
+    element: <Careers />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
+  },
+  {
+    path: "/support",
+    element: <Support />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );

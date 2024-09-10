@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import "./DashboardCarousel.css";
-import dbbanner1 from "../assets/images/db-banner1.png";
-import dbbanner2 from "../assets/images/db-banner2.png";
-import dbbanner3 from "../assets/images/db-banner3.png";
-import dbbanner4 from "../assets/images/db-banner4.png";
+import "./assets/css/DashboardCarousel.css";
+import dbbanner1 from "./assets/images/db-banner1.png";
+import dbbanner2 from "./assets/images/db-banner2.png";
+import dbbanner3 from "./assets/images/db-banner3.png";
+import dbbanner4 from "./assets/images/db-banner4.png";
 
 function DashboardCarousel() {
   return (

@@ -2,20 +2,22 @@ import "./assets/css/Navbar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
+import { Link } from "react-router-dom";
+
 import tgeLogo from "./assets/images/tgelogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const search_icon = <FontAwesomeIcon icon={faMagnifyingGlass} />;
 
-function Navbar() {
+export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-dark navbar-expand-lg h-25 z-3 position-sticky">
         <div className="container-fluid navbar-all">
-          <a className="navbar-brand" href="#">
+          <Link to="/" className="navbar-brand">
             <img className="nav-logo" src={tgeLogo} alt="TeamGoElite" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,20 +32,15 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <div className="nav-item btn-group">
-                <button type="button" className="btn nav-title">
+                <Link to="/" className="btn nav-title">
                   Home
-                </button>
+                </Link>
               </div>
 
               <div className="nav-item dropdown">
-                <button
-                  className="btn nav-title"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                <Link to="/careers" className="btn nav-title">
                   Careers
-                </button>
+                </Link>
                 <ul className="dropdown-menu d-none">
                   <li>
                     <a className="dropdown-item" href="#">
@@ -64,14 +61,9 @@ function Navbar() {
               </div>
 
               <div className="nav-item dropdown">
-                <button
-                  className="btn nav-title"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                <Link to="/products" className="btn nav-title">
                   Products
-                </button>
+                </Link>
                 <ul className="dropdown-menu d-none">
                   <li>
                     <a className="dropdown-item" href="#">
@@ -115,14 +107,9 @@ function Navbar() {
               </div>
 
               <div className="nav-item dropdown">
-                <button
-                  className="btn nav-title"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                <Link to="/support" className="btn nav-title">
                   Support
-                </button>
+                </Link>
                 <ul className="dropdown-menu d-none">
                   <li>
                     <a className="dropdown-item" href="#">
@@ -171,5 +158,3 @@ function Navbar() {
     </>
   );
 }
-
-export default Navbar;
