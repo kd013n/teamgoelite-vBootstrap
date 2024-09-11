@@ -99,7 +99,8 @@ export default function CareersInfo1() {
             the operating environment. To encourage people, we ensure that what
             we offer was equitable, supportive and compete with the market.
             <br />
-            We mentor, we empower, and we lead you to be successful.
+            <br />
+            <b>We mentor, we empower, and we lead you to be successful.</b>
           </p>
         </div>
       </div>

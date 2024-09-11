@@ -60,6 +60,11 @@
 
 .dashboard-text p {
   text-align: right;
+  font-size: 1.75vw;
+  line-height: 1.2;
+  font-weight: 500;
+
+  padding: 2% 0;
 }
 
 .dashboard-text button {
