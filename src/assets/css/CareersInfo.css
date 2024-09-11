@@ -1,0 +1,61 @@
+.container-cainfo {
+  background-color: #0b111b;
+  height: 45vh;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.cainfo-primer {
+  grid-area: 1 / 1 / 5 / 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 5% 0 10%;
+}
+
+.cainfo-title {
+  font-size: 4vw;
+  font-weight: 800;
+  color: #b9171f !important;
+  text-align: end;
+}
+
+.cainfo-desc {
+  font-size: 1.25vw;
+  line-height: 1.15;
+  color: #d1d6e0 !important;
+  padding-left: 1%;
+  text-align: end;
+}
+
+.cainfo-carcontainer {
+  height: 100%;
+  grid-area: 1 / 7 / 5 / 11;
+  padding-right: 10%;
+}
+
+.cainfo-carousel {
+  padding: 3% 15% 3% 0;
+}
+
+.cainfo-card {
+  background-color: #090d14;
+  height: calc(45vh - 6%);
+}
+
+.cainfo-heading {
+  font-size: 1.8vw;
+  font-weight: 800;
+  margin: 0;
+}
+
+.cainfo-text {
+  font-size: 1vw;
+  line-height: 1.25;
+  margin: 0;
+}

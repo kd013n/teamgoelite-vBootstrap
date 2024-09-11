@@ -1,4 +1,4 @@
-import "../assets/css/CareersBanner.css";
+import "../assets/css/PageBanner.css";
 
 import cabanner1 from "../assets/images/ca-banner1.png";
 

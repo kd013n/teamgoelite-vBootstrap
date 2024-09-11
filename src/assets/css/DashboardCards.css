@@ -1,5 +1,5 @@
 .dashboardcards-container {
-  background-color: #111d32;
+  background-color: #0f1827;
   padding-bottom: 5%;
 }
 
@@ -35,8 +35,8 @@
   padding: 0% 12.5%;
 }
 
-.card {
-  background-color: #0a1325;
+.dashcards-card {
+  background-color: #0b111b;
   border: transparent 0px solid;
 }
 

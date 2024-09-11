@@ -1,4 +1,4 @@
-import "../assets/css/ProductsBanner.css";
+import "../assets/css/PageBanner.css";
 
 import prbanner1 from "../assets/images/pr-banner1.png";
 

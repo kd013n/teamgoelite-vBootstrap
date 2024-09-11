@@ -15,7 +15,7 @@ export default function DashboardCards() {
               <div className="carousel-item active">
                 <div className="row card-cluster">
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"
@@ -34,7 +34,7 @@ export default function DashboardCards() {
                     </div>
                   </div>
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"
@@ -53,7 +53,7 @@ export default function DashboardCards() {
                     </div>
                   </div>
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"
@@ -76,7 +76,7 @@ export default function DashboardCards() {
               <div className="carousel-item">
                 <div className="row card-cluster">
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"
@@ -95,7 +95,7 @@ export default function DashboardCards() {
                     </div>
                   </div>
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"
@@ -114,7 +114,7 @@ export default function DashboardCards() {
                     </div>
                   </div>
                   <div className="col-sm">
-                    <div className="card">
+                    <div className="card dashcards-card">
                       <img
                         src={imagerand}
                         className="card-img-top"

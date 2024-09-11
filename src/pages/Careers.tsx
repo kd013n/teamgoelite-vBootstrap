@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CareersBanner from "../components/CareersBanner";
-import CareersInfo1 from "../components/CareersInfo1";
+import CareersInfo from "../components/CareersInfo";
 import CareerPrograms from "../components/CareerPrograms";
 
 export default function Careers() {
@@ -9,7 +9,7 @@ export default function Careers() {
     <>
       <Navbar></Navbar>
       <CareersBanner></CareersBanner>
-      <CareersInfo1></CareersInfo1>
+      <CareersInfo></CareersInfo>
       <CareerPrograms></CareerPrograms>
       <Footer></Footer>
     </>

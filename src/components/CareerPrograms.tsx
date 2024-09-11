@@ -1,20 +1,21 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
+import { Link } from "react-router-dom";
 
 import "../assets/css/CareerPrograms.css";
-
-import cainfo1 from "../assets/images/ca-info1.png";
-import cainfo2 from "../assets/images/ca-info2.png";
-import cainfo3 from "../assets/images/ca-info3.png";
-import cainfo4 from "../assets/images/ca-info4.png";
 
 export default function CareerPrograms() {
   return (
     <>
       <div className="caprograms-container">
         <div className="caprograms-heading">
-          <h1 className="caprograms-title">Join Team Go Elite</h1>
-          <p>
+          <div className="caprograms-title-group">
+            <p className="caprograms-title">Join Team </p>
+            <p className="caprograms-title2">Go</p>
+            <p className="caprograms-title"> Elite</p>
+          </div>
+
+          <p className="caprograms-subtitle">
             We are here to assist you advance your career and help you to reach
             your best potential.{" "}
           </p>
@@ -22,140 +23,128 @@ export default function CareerPrograms() {
 
         <div className="caprograms-offerings">
           <div className="caprograms-list">
-            <div
-              className="accordion accordion-flush"
-              id="accordionFlushExample"
-            >
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
-                    Accordion Item #1
-                  </button>
-                </h2>
+            <div className="row caprograms-row">
+              <div className="col-10 ">
                 <div
-                  id="flush-collapseOne"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
+                  className="list-group caprograms-links"
+                  id="list-tab"
+                  role="tablist"
                 >
-                  <div className="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> className.
-                    This is the first item's accordion body.
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
+                  <Link
+                    className="list-group-item list-group-item-action ca-links active"
+                    id="list-home-list"
+                    data-bs-toggle="list"
+                    to="#list-home"
+                    role="tab"
+                    aria-controls="list-home"
                   >
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div className="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> className.
-                    This is the second item's accordion body. Let's imagine this
-                    being filled with some actual content.
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
+                    <p className="link-title">
+                      Financial Advisors Hiring Program
+                    </p>
+                    <p className="link-subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda doloribus quae recusandae exercitationem sint
+                    </p>
+                  </Link>
+                  <Link
+                    className="list-group-item list-group-item-action ca-links"
+                    id="list-profile-list"
+                    data-bs-toggle="list"
+                    to="#list-profile"
+                    role="tab"
+                    aria-controls="list-profile"
                   >
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div className="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> className.
-                    This is the third item's accordion body. Nothing more
-                    exciting happening here in terms of content, but just
-                    filling up the space to make it look, at least at first
-                    glance, a bit more representative of how this would look in
-                    a real-world application.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="carouselExampleIndicators" className="carousel slide">
-              <div className="btn-group">
-                <button
-                  className="btn btn-primary active"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                >
-                  Active link
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-primary"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                >
-                  2
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-primary"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                >
-                  3
-                </button>
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={cainfo1} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src={cainfo2} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src={cainfo3} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src={cainfo4} className="d-block w-100" alt="..." />
+                    <p className="link-title">Associate Branch Head Program</p>
+                    <p className="link-subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda doloribus quae recusandae exercitationem sint
+                    </p>
+                  </Link>
+                  <Link
+                    className="list-group-item list-group-item-action ca-links"
+                    id="list-messages-list"
+                    data-bs-toggle="list"
+                    to="#list-messages"
+                    role="tab"
+                    aria-controls="list-messages"
+                  >
+                    <p className="link-title">Manager Hiring Program</p>
+                    <p className="link-subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda doloribus quae recusandae exercitationem sint
+                    </p>
+                  </Link>
+                  <Link
+                    className="list-group-item list-group-item-action ca-links"
+                    id="list-settings-list"
+                    data-bs-toggle="list"
+                    to="#list-settings"
+                    role="tab"
+                    aria-controls="list-settings"
+                  >
+                    <p className="link-title">Manager Development Program</p>
+                    <p className="link-subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda doloribus quae recusandae exercitationem sint
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="caprograms-view"></div>
+          <div className="caprograms-view">
+            <div className="tab-content caprograms-tabrow" id="nav-tabContent">
+              <div
+                className="tab-pane caprograms-genview card show active"
+                id="list-home"
+                role="tabpanel"
+                aria-labelledby="list-home-list"
+              >
+                <p className="genview-text">
+                  {" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
+                </p>
+              </div>
+              <div
+                className="tab-pane caprograms-genview card"
+                id="list-profile"
+                role="tabpanel"
+                aria-labelledby="list-profile-list"
+              >
+                <p className="genview-text">
+                  {" "}
+                  Lorem ignium dolor sit amet consectetur adipisicing elit.
+                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
+                </p>
+              </div>
+              <div
+                className="tab-pane caprograms-genview card"
+                id="list-messages"
+                role="tabpanel"
+                aria-labelledby="list-messages-list"
+              >
+                <p className="genview-text">
+                  {" "}
+                  Lorem talcum dolor sit amet consectetur adipisicing elit.
+                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
+                </p>
+              </div>
+              <div
+                className="tab-pane caprograms-genview card"
+                id="list-settings"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                <p className="genview-text">
+                  {" "}
+                  Lorem gypsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
