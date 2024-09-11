@@ -1,3 +1,13 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ProductsBanner from "../components/ProductsBanner";
+
 export default function Products() {
-  return <h1>Products</h1>;
+  return (
+    <>
+      <Navbar></Navbar>
+      <ProductsBanner></ProductsBanner>
+      <Footer></Footer>
+    </>
+  );
 }
