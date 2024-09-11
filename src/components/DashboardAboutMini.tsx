@@ -17,7 +17,8 @@ export default function DashboardAboutMini() {
               Team Go Elite is a ﬁnancial organization organized to provide
               ﬁnancial literacy and advocate risk management to Filipino
               families. We also provide opportunities to Filipinos to achieve
-              ﬁnancial freedom. <br /> <br />
+              ﬁnancial freedom. <br />
+              <br />
               We mentor, we empower, and we lead you to be successful.
             </p>
           </div>

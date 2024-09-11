@@ -1,0 +1,55 @@
+.container-cainfo {
+  background-color: #0b111b;
+  height: 45vh;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.cainfo-carcontainer {
+  height: 100%;
+  grid-area: 1 / 1 / 5 / 5;
+  padding-left: 10%;
+}
+
+.cainfo-carousel {
+  padding: 3% 15% 3% 0;
+}
+
+.cainfo-card {
+  background-color: #090d14;
+  height: calc(45vh - 6%);
+}
+
+.cainfo-heading {
+  font-size: 1.8vw;
+  font-weight: 800;
+}
+
+.cainfo-text {
+  font-size: 1.15vw;
+}
+
+.cainfo-primer {
+  grid-area: 1 / 5 / 4 / 11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 10% 0 5%;
+}
+
+.cainfo-title {
+  font-size: 5vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: #ff1721 !important;
+}
+
+.cainfo-desc {
+  font-size: 1.35vw;
+  color: #d1d6e0 !important;
+}

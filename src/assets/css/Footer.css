@@ -55,7 +55,7 @@
 
 .footer-logo img {
   height: 6vw;
-  width: 6vw;
+  width: auto;
   border-radius: 0.5vw;
 }
 
