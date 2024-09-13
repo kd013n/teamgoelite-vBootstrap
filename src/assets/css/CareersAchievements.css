@@ -42,7 +42,7 @@
 }
 
 .caach-fyi {
-  height: 38%;
+  height: 30%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -61,7 +61,8 @@
   color: #a4a7af !important;
   padding-left: 3%;
   text-align: justify;
-  font-size: 1.35vw;
+  font-size: 1.15vw;
+  font-style: italic;
 }
 
 .caach-carousel {

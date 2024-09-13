@@ -32,22 +32,21 @@
 }
 
 .card-items {
-  height: 100%;
+  height: inherit;
 }
 
 .card-cluster {
-  height: 100%;
   padding: 0% 12.5%;
 }
 
 .dashcards-card {
-  height: 100%;
+  height: 25vw;
   background-color: #0b111b;
   border: transparent 0px solid;
 }
 
 .dashcards-card img {
-  height: 40%;
+  height: 10vw;
   object-fit: cover;
 }
 

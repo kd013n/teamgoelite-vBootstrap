@@ -44,7 +44,7 @@
 
 .caprograms-subtitle {
   padding: 2%;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .link-title {
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   font-weight: 800;
   line-height: 1;
   display: inline-block;
@@ -167,7 +167,7 @@
 }
 
 .genview-title {
-  font-size: 4.5vw;
+  font-size: 4vw;
   font-weight: 800;
   line-height: 0.9;
   font-family: "Roboto", sans-serif;
@@ -175,12 +175,13 @@
 }
 
 .genview-text {
-  font-size: 1.35vw;
+  padding: 1% 0;
+  font-size: 1.25vw;
   color: #a4a7af !important;
 }
 
 .genview-button {
-  width: 13vw;
+  width: 12vw;
   background-color: #b9171f !important;
   padding: 1.5% 3%;
   display: flex;
@@ -188,7 +189,7 @@
   gap: 1vw;
   justify-content: center;
   align-items: center;
-  font-size: 1.35vw;
+  font-size: 1.25vw;
   transition: all 100ms ease-in-out;
 }
 
