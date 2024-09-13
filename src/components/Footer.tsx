@@ -144,7 +144,8 @@ function Footer() {
             </div>
           </div>
           <div className="footer-copyright">
-            Copyright &copy; 2024 TeamGoElite. All Rights Reserved.
+            Copyright &copy; 2024 TeamGoElite &times; kd013n. All Rights
+            Reserved.
           </div>
         </section>
       </footer>

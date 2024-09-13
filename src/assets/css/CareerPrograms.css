@@ -1,6 +1,6 @@
 .caprograms-container {
   background-color: #0f1827;
-  padding: 10% 0;
+  padding: 8% 0;
 }
 
 .caprograms-heading {
@@ -118,7 +118,7 @@
 }
 
 .link-subtext {
-  font-size: 0.9vw;
+  font-size: 1vw;
   line-height: 1.2;
   display: inline-block;
   color: #a4a7af !important;
@@ -188,6 +188,7 @@
   gap: 1vw;
   justify-content: center;
   align-items: center;
+  font-size: 1.35vw;
   transition: all 100ms ease-in-out;
 }
 
