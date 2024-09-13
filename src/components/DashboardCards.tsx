@@ -2,7 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "../assets/css/DashboardCards.css";
 
-import imagerand from "../assets/images/db-banner1.png";
+import imgcareers from "../assets/images/ca-banner1.png";
+import imgproducts from "../assets/images/pr-banner1.png";
+import imgsupport from "../assets/images/sp-banner1.png";
 
 export default function DashboardCards() {
   return (
@@ -12,12 +14,12 @@ export default function DashboardCards() {
         <div className="cards-container">
           <div id="carouselExample" className="carousel slide cards-carousel">
             <div className="carousel-inner cards-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item card-items active">
                 <div className="row card-cluster">
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgcareers}
                         className="card-img-top"
                         alt="Careers"
                       />
@@ -36,7 +38,7 @@ export default function DashboardCards() {
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgproducts}
                         className="card-img-top"
                         alt="Products"
                       />
@@ -55,7 +57,7 @@ export default function DashboardCards() {
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgsupport}
                         className="card-img-top"
                         alt="Support"
                       />
@@ -73,12 +75,12 @@ export default function DashboardCards() {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item">
+              <div className="carousel-item card-items">
                 <div className="row card-cluster">
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgcareers}
                         className="card-img-top"
                         alt="Testimonials"
                       />
@@ -97,7 +99,7 @@ export default function DashboardCards() {
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgproducts}
                         className="card-img-top"
                         alt="Events"
                       />
@@ -116,7 +118,7 @@ export default function DashboardCards() {
                   <div className="col-sm">
                     <div className="card dashcards-card">
                       <img
-                        src={imagerand}
+                        src={imgsupport}
                         className="card-img-top"
                         alt="About"
                       />

@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 
 import "../assets/css/CareerPrograms.css";
 
+import casidebanner1 from "../assets/images/ca-sidebanner1.jpg";
+import casidebanner2 from "../assets/images/ca-sidebanner2.jpg";
+import casidebanner3 from "../assets/images/ca-sidebanner3.jpg";
+import casidebanner4 from "../assets/images/ca-sidebanner4.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import casidebanner1 from "../assets/images/ca-sidebanner1.jpg";
 
 const chevronRight = <FontAwesomeIcon icon={faChevronRight} fade />;
 
@@ -104,12 +108,12 @@ export default function CareerPrograms() {
           <div className="caprograms-view">
             <div className="tab-content caprograms-tabrow" id="nav-tabContent">
               <div
-                className="tab-pane caprograms-genview card show active"
+                className="tab-pane caprograms-genview show active"
                 id="list-home"
                 role="tabpanel"
                 aria-labelledby="list-home-list"
               >
-                <div className="genview-container card">
+                <div className="genview-container rounded">
                   <div className="genview-left rounded-start">
                     <img src={casidebanner1} alt="" />
                   </div>
@@ -130,14 +134,14 @@ export default function CareerPrograms() {
                 </div>
               </div>
               <div
-                className="tab-pane caprograms-genview card"
+                className="tab-pane caprograms-genview"
                 id="list-profile"
                 role="tabpanel"
                 aria-labelledby="list-profile-list"
               >
-                <div className="genview-container card">
+                <div className="genview-container rounded">
                   <div className="genview-left rounded-start">
-                    <img src={casidebanner1} alt="" />
+                    <img src={casidebanner2} alt="" />
                   </div>
                   <div className="genview-right rounded-end">
                     <p className="genview-title">
@@ -156,14 +160,14 @@ export default function CareerPrograms() {
                 </div>
               </div>
               <div
-                className="tab-pane caprograms-genview card"
+                className="tab-pane caprograms-genview"
                 id="list-messages"
                 role="tabpanel"
                 aria-labelledby="list-messages-list"
               >
-                <div className="genview-container card">
+                <div className="genview-container rounded">
                   <div className="genview-left rounded-start">
-                    <img src={casidebanner1} alt="" />
+                    <img src={casidebanner3} alt="" />
                   </div>
                   <div className="genview-right rounded-end">
                     <p className="genview-title">Manager Hiring Program</p>
@@ -180,14 +184,14 @@ export default function CareerPrograms() {
                 </div>
               </div>
               <div
-                className="tab-pane caprograms-genview card"
+                className="tab-pane caprograms-genview"
                 id="list-settings"
                 role="tabpanel"
                 aria-labelledby="list-settings-list"
               >
-                <div className="genview-container card">
+                <div className="genview-container rounded">
                   <div className="genview-left rounded-start">
-                    <img src={casidebanner1} alt="" />
+                    <img src={casidebanner4} alt="" />
                   </div>
                   <div className="genview-right rounded-end">
                     <p className="genview-title">Manager Development Program</p>

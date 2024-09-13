@@ -1,6 +1,6 @@
 .dashboardcards-container {
   background-color: #0f1827;
-  padding-bottom: 5%;
+  padding: 5% 0;
 }
 
 .dashboardcards-title {
@@ -8,7 +8,7 @@
   font-weight: 800;
   color: #ffffff;
   text-align: center;
-  padding: 6% 0 3% 0;
+  padding: 0 0 3% 0;
 
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -16,7 +16,7 @@
 }
 
 .cards-container {
-  height: 35vw;
+  height: 25vw;
   width: 100%;
 }
 
@@ -31,13 +31,31 @@
   height: 100%;
 }
 
+.card-items {
+  height: 100%;
+}
+
 .card-cluster {
+  height: 100%;
   padding: 0% 12.5%;
 }
 
 .dashcards-card {
+  height: 100%;
   background-color: #0b111b;
   border: transparent 0px solid;
+}
+
+.dashcards-card img {
+  height: 40%;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .card-btn {
