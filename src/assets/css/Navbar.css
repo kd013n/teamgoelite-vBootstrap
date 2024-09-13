@@ -66,6 +66,13 @@
   color: #d1d6e0;
 }
 
+#embedded-map-display img {
+  max-width: none !important;
+  background: none !important;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 @media (max-width: 992px) {
   .nav-item {
     display: flex;

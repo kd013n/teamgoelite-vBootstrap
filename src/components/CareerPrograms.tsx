@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 
 import "../assets/css/CareerPrograms.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import casidebanner1 from "../assets/images/ca-sidebanner1.jpg";
+
+const chevronRight = <FontAwesomeIcon icon={faChevronRight} fade />;
+
 export default function CareerPrograms() {
   return (
     <>
@@ -16,8 +22,10 @@ export default function CareerPrograms() {
           </div>
 
           <p className="caprograms-subtitle">
-            We are here to assist you advance your career and help you to reach
-            your best potential.{" "}
+            Transform your aspirations into tangible achievements and success
+            stories. <br />
+            Experience the power of teamwork, mentorship, and success in our
+            elite community!
           </p>
         </div>
 
@@ -101,11 +109,25 @@ export default function CareerPrograms() {
                 role="tabpanel"
                 aria-labelledby="list-home-list"
               >
-                <p className="genview-text">
-                  {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
-                </p>
+                <div className="genview-container card">
+                  <div className="genview-left rounded-start">
+                    <img src={casidebanner1} alt="" />
+                  </div>
+                  <div className="genview-right rounded-end">
+                    <p className="genview-title">
+                      Financial Advisors Hiring Program
+                    </p>
+                    <p className="genview-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Voluptatum assumenda praesentium reiciendis nostrum
+                      voluptatibus id et deserunt neque, architecto, consectetur
+                      commodi?
+                    </p>
+                    <button className="genview-button rounded  border-0">
+                      Learn More {chevronRight}
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className="tab-pane caprograms-genview card"
@@ -113,11 +135,25 @@ export default function CareerPrograms() {
                 role="tabpanel"
                 aria-labelledby="list-profile-list"
               >
-                <p className="genview-text">
-                  {" "}
-                  Lorem ignium dolor sit amet consectetur adipisicing elit.
-                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
-                </p>
+                <div className="genview-container card">
+                  <div className="genview-left rounded-start">
+                    <img src={casidebanner1} alt="" />
+                  </div>
+                  <div className="genview-right rounded-end">
+                    <p className="genview-title">
+                      Associate Branch Head Program
+                    </p>
+                    <p className="genview-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Voluptatum assumenda praesentium reiciendis nostrum
+                      voluptatibus id et deserunt neque, architecto, consectetur
+                      commodi?
+                    </p>
+                    <button className="genview-button rounded  border-0">
+                      Learn More {chevronRight}
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className="tab-pane caprograms-genview card"
@@ -125,11 +161,23 @@ export default function CareerPrograms() {
                 role="tabpanel"
                 aria-labelledby="list-messages-list"
               >
-                <p className="genview-text">
-                  {" "}
-                  Lorem talcum dolor sit amet consectetur adipisicing elit.
-                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
-                </p>
+                <div className="genview-container card">
+                  <div className="genview-left rounded-start">
+                    <img src={casidebanner1} alt="" />
+                  </div>
+                  <div className="genview-right rounded-end">
+                    <p className="genview-title">Manager Hiring Program</p>
+                    <p className="genview-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Voluptatum assumenda praesentium reiciendis nostrum
+                      voluptatibus id et deserunt neque, architecto, consectetur
+                      commodi?
+                    </p>
+                    <button className="genview-button rounded  border-0">
+                      Learn More {chevronRight}
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className="tab-pane caprograms-genview card"
@@ -137,11 +185,23 @@ export default function CareerPrograms() {
                 role="tabpanel"
                 aria-labelledby="list-settings-list"
               >
-                <p className="genview-text">
-                  {" "}
-                  Lorem gypsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas cupiditate aspernatur perferendis exercitationem{" "}
-                </p>
+                <div className="genview-container card">
+                  <div className="genview-left rounded-start">
+                    <img src={casidebanner1} alt="" />
+                  </div>
+                  <div className="genview-right rounded-end">
+                    <p className="genview-title">Manager Development Program</p>
+                    <p className="genview-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Voluptatum assumenda praesentium reiciendis nostrum
+                      voluptatibus id et deserunt neque, architecto, consectetur
+                      commodi?
+                    </p>
+                    <button className="genview-button rounded  border-0">
+                      Learn More {chevronRight}
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

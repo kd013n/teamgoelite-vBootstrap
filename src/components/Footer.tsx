@@ -22,10 +22,48 @@ function Footer() {
     <>
       <footer className="footer w-100">
         <section>
-          <div className="footer-logo">
-            <img src={tgelogo} alt="" />
+          <div className="footer-logo-top">
+            <div className="footer-logo">
+              <img src={tgelogo} alt="" />
+            </div>
+            <div className="footer-title">TEAM GO ELITE</div>
           </div>
-          <div className="footer-title">TEAM GO ELITE</div>
+
+          <div
+            style={{
+              overflow: "hidden",
+              resize: "none",
+              maxWidth: "100%",
+              width: "78%",
+              height: "200px",
+              paddingTop: "2vw",
+            }}
+          >
+            <div
+              id="embedded-map-display"
+              style={{
+                height: "100%",
+                width: "100%",
+                maxWidth: "100%",
+              }}
+            >
+              <iframe
+                style={{
+                  height: "100%",
+                  width: "100%",
+                  border: "0",
+                  filter: "invert(100%)",
+                }}
+                frameBorder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=wellington+binondo+axa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a
+              className="code-for-google-map"
+              href="https://www.bootstrapskins.com/themes"
+              id="authorize-maps-data"
+            ></a>
+          </div>
         </section>
 
         <section>
