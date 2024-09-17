@@ -5,7 +5,15 @@ import "bootstrap/dist/js/bootstrap.js";
 import caach1 from "../assets/images/ca-info1.png";
 import caach2 from "../assets/images/ca-info2.png";
 import caach3 from "../assets/images/ca-info3.png";
-import caach4 from "../assets/images/ca-info4.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+const chevronRight = <FontAwesomeIcon icon={faChevronRight} fade />;
+const arrowUpRightFromSquare = (
+  <FontAwesomeIcon icon={faArrowUpRightFromSquare} fade />
+);
 
 export default function CareersAchievements() {
   return (
@@ -20,59 +28,70 @@ export default function CareersAchievements() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="card caach-card">
-                  <img src={caach1} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-heading caach-heading">
-                      Income Opportunities
-                    </h5>
+                  <img
+                    src={caach1}
+                    className="caach-img-left rounded-start"
+                    alt="..."
+                  />
+                  <div className="card-body caach-body">
+                    <h5 className="card-heading caach-heading">MDRT</h5>
                     <p className="card-text caach-text">
                       Take control of your financial future. Set your desired
                       earnings and achieve your goals on your terms.
                     </p>
+                    <div className="caach-btn-grp">
+                      <button className="caach-btn rounded">
+                        Testimonials {chevronRight}
+                      </button>
+                      <button className="caach-btn rounded">
+                        MDRT Mentoring Program {chevronRight}
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="card caach-card">
-                  <img src={caach2} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-heading caach-heading">
-                      Career Growth
-                    </h5>
+                  <img
+                    src={caach2}
+                    className="caach-img-left rounded-start"
+                    alt="..."
+                  />
+                  <div className="card-body caach-body">
+                    <h5 className="card-heading caach-heading">GAMA</h5>
                     <p className="card-text caach-text">
                       Join us to elevate your career. Together, we'll unlock
                       your potential and achieve incredible milestones. Your
                       growth awaits!
                     </p>
+                    <div className="caach-btn-grp">
+                      <button className="caach-btn rounded">
+                        Testimonials {chevronRight}
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="card caach-card">
-                  <img src={caach3} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-heading caach-heading">
-                      Rewards and Recognition
-                    </h5>
+                  <img
+                    src={caach3}
+                    className="caach-img-left rounded-start"
+                    alt="..."
+                  />
+                  <div className="card-body caach-body">
+                    <h5 className="card-heading caach-heading">AXA Prime</h5>
                     <p className="card-text caach-text">
                       Unlock your earning potential with our innovative bonuses.
                       Achieve your financial dreams faster than ever before.
                     </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-item">
-                <div className="card caach-card">
-                  <img src={caach4} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-heading caach-heading">Travel</h5>
-                    <p className="card-text caach-text">
-                      Discover exciting domestic and international travel
-                      promotions, exploring the world around you at no cost.
-                    </p>
+                    <div className="caach-btn-grp">
+                      <button className="caach-btn rounded">
+                        AXA Prime {arrowUpRightFromSquare}
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,10 +1,17 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+
 import "../assets/css/DashboardCarousel.css";
+
 import dbbanner1 from "../assets/images/db-banner1.png";
 import dbbanner2 from "../assets/images/db-banner2.png";
 import dbbanner3 from "../assets/images/db-banner3.png";
 import dbbanner4 from "../assets/images/db-banner4.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
+const chevronRight = <FontAwesomeIcon icon={faChevronRight} fade />;
 
 export default function DashboardCarousel() {
   return (
@@ -31,7 +38,9 @@ export default function DashboardCarousel() {
                   facilis culpa ipsa, nam tenetur delectus fugiat quae alias
                   animi dignissimos assumenda modi
                 </p>
-                <button className="btn">See more</button>
+                <button className="dashcar-btn rounded">
+                  See more {chevronRight}
+                </button>
               </div>
             </div>
             <img src={dbbanner1} className="object-fit-cover w-100" alt="..." />
@@ -52,7 +61,9 @@ export default function DashboardCarousel() {
                   facilis culpa ipsa, nam tenetur delectus fugiat quae alias
                   animi dignissimos assumenda modi
                 </p>
-                <button className="btn">See more</button>
+                <button className="dashcar-btn rounded">
+                  See more {chevronRight}
+                </button>
               </div>
             </div>
             <img src={dbbanner2} className="object-fit-cover w-100" alt="..." />

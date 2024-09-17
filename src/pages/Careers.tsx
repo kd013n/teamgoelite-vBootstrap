@@ -5,7 +5,7 @@ import CareersInfo from "../components/CareersInfo";
 import CareerPrograms from "../components/CareerPrograms";
 import CareersAchievements from "../components/CareersAchievements";
 import CareersTravel from "../components/CareersTravel";
-import DashboardAboutMini from "../components/DashboardAboutMini";
+import CareersSlogan from "../components/CareersSlogan";
 
 export default function Careers() {
   return (
@@ -16,7 +16,7 @@ export default function Careers() {
       <CareerPrograms></CareerPrograms>
       <CareersAchievements></CareersAchievements>
       <CareersTravel></CareersTravel>
-      <DashboardAboutMini></DashboardAboutMini>
+      <CareersSlogan></CareersSlogan>
       <Footer></Footer>
     </>
   );

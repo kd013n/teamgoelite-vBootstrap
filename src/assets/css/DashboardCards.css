@@ -59,9 +59,14 @@
 
 .card-btn {
   background-color: #a82128 !important;
-  font-size: 1.3vw !important;
+  font-size: 1.25vw !important;
+}
+
+.card-title {
+  font-size: 2vw;
+  font-weight: 800;
 }
 
 .card-text {
-  font-size: 1.25vw;
+  font-size: 1.15vw;
 }

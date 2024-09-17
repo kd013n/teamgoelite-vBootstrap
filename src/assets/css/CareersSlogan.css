@@ -1,0 +1,53 @@
+.caslg-main {
+  background-color: #0b111b;
+  height: 50vh;
+  width: 100vw;
+}
+
+.caslg-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.caslg-leftcell {
+  grid-area: 1 / 1 / 4 / 5;
+  padding: 5% 15% 5% 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.caslg-rightcell {
+  grid-area: 1 / 5 / 4 / 8;
+  padding: 5% 15% 5% 5%;
+}
+
+.caslg-title {
+  font-size: 4.5vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: #b9171f !important;
+}
+
+.caslg-text {
+  font-size: 1.15vw;
+}
+
+.caslg-highlight {
+  font-weight: 800;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+}
+
+.caslg-carousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}

@@ -33,7 +33,7 @@
   font-weight: 800;
   font-family: "Roboto", sans-serif;
   line-height: 0.7;
-  -webkit-text-stroke: 0.25vw #ffffff;
+  -webkit-text-stroke: 0.25vw #d1d6e0;
   -webkit-text-fill-color: transparent;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -45,7 +45,7 @@
   font-weight: 800;
   font-family: "Roboto", sans-serif;
   line-height: 0.7;
-  -webkit-text-stroke: 0.25vw #ffffff;
+  -webkit-text-stroke: 0.25vw #d1d6e0;
   -webkit-text-fill-color: #b9171f;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -60,16 +60,32 @@
 
 .dashboard-text p {
   text-align: right;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   line-height: 1.2;
   font-weight: 500;
 
   padding: 2% 0;
 }
 
-.dashboard-text button {
-  width: 10vw;
+.dashcar-btn {
+  width: 12vw;
+  font-size: 1.25vw;
   background-color: #a82128 !important;
+  padding: 1.5% 3%;
+  border: transparent 0px solid;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25vw;
+  transition: all 100ms ease-in-out;
+}
+
+.dashcar-btn:hover {
+  background-color: #d31d26 !important;
+  transform: scale(1.05);
 }
 
 @media (max-width: 799px) {
@@ -77,6 +93,6 @@
   .disp2 {
     font-size: 180%;
     line-height: 2.5vw;
-    -webkit-text-stroke: 0.2vw #ffffff;
+    -webkit-text-stroke: 0.2vw #d1d6e0;
   }
 }

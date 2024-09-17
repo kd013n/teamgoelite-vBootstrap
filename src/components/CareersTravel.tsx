@@ -2,7 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 import "../assets/css/CareersTravel.css";
-import { FacebookEmbed } from "react-social-media-embed";
+
+import catravel1 from "../assets/images/ca-sidebanner1.jpg";
+import catravel2 from "../assets/images/ca-sidebanner2.jpg";
+import catravel3 from "../assets/images/ca-sidebanner3.jpg";
 
 export default function CareersTravel() {
   return (
@@ -21,11 +24,65 @@ export default function CareersTravel() {
             Explore both local and international destinations without any cost.
             Discover the world around you while enjoying exclusive offers.
           </p>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <FacebookEmbed
-              url="https://www.facebook.com/share/p/8PrN3eHZpt8jU6BY/"
-              width={550}
-            />
+        </div>
+        <div className="catravel-anims">
+          <div className="catravel-item">
+            <div className="catravel-marquee">
+              <div className="catravel-mqcontent">
+                <div className="catravel-mqitem">
+                  <img src={catravel1} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel2} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel3} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel1} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel2} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel3} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="catravel-item">
+            <div className="catravel-marquee">
+              <div className="catravel-mqcontent">
+                <div className="catravel-mqitem">
+                  <img src={catravel1} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel2} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel3} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel1} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel2} alt="" />
+                </div>
+
+                <div className="catravel-mqitem">
+                  <img src={catravel3} alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

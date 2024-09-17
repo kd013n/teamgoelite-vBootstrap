@@ -44,7 +44,7 @@
 
 .caprograms-subtitle {
   padding: 2%;
-  font-size: 1.5vw;
+  font-size: 1.35vw;
   text-align: center;
 }
 
@@ -93,11 +93,6 @@
   align-items: start;
 }
 
-/*.caprograms-links {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}*/
-
 .caprograms-links > .active {
   background-color: #d1d6e0 !important;
   border-color: #d1d6e0 !important;
@@ -105,24 +100,42 @@
 
 .ca-links {
   background-color: #0b111b !important;
-  padding: 5%;
   border: transparent 0px solid;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .link-title {
+  height: 100%;
+  grid-area: 1 / 1 / 2 / 3;
   font-size: 1.5vw;
   font-weight: 800;
   line-height: 1;
   display: inline-block;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .link-subtext {
+  height: 100%;
+  grid-area: 1 / 3 / 2 / 6;
   font-size: 1vw;
   line-height: 1.2;
   display: inline-block;
-  color: #a4a7af !important;
-  margin: 0;
+  color: #91949b !important;
+  margin-top: 0;
+  padding-left: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .active > .link-title,
@@ -176,8 +189,8 @@
 
 .genview-text {
   padding: 1% 0;
-  font-size: 1.25vw;
-  color: #a4a7af !important;
+  font-size: 1.15vw;
+  color: #91949b !important;
 }
 
 .genview-button {
@@ -189,7 +202,7 @@
   gap: 1vw;
   justify-content: center;
   align-items: center;
-  font-size: 1.25vw;
+  font-size: 1.15vw;
   transition: all 100ms ease-in-out;
 }
 

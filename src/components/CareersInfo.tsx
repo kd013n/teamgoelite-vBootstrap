@@ -31,8 +31,12 @@ export default function CareersInfo() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="card cainfo-card">
-                  <img src={cainfo1} className="card-img-top" alt="..." />
-                  <div className="card-body">
+                  <img
+                    src={cainfo1}
+                    className="cainfo-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div className="card-body cainfo-body">
                     <h5 className="card-heading cainfo-heading">
                       Income Opportunities
                     </h5>
@@ -46,8 +50,12 @@ export default function CareersInfo() {
 
               <div className="carousel-item">
                 <div className="card cainfo-card">
-                  <img src={cainfo2} className="card-img-top" alt="..." />
-                  <div className="card-body">
+                  <img
+                    src={cainfo2}
+                    className="cainfo-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div className="card-body cainfo-body">
                     <h5 className="card-heading cainfo-heading">
                       Career Growth
                     </h5>
@@ -62,8 +70,12 @@ export default function CareersInfo() {
 
               <div className="carousel-item">
                 <div className="card cainfo-card">
-                  <img src={cainfo3} className="card-img-top" alt="..." />
-                  <div className="card-body">
+                  <img
+                    src={cainfo3}
+                    className="cainfo-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div className="card-body cainfo-body">
                     <h5 className="card-heading cainfo-heading">
                       Rewards and Recognition
                     </h5>
@@ -77,8 +89,12 @@ export default function CareersInfo() {
 
               <div className="carousel-item">
                 <div className="card cainfo-card">
-                  <img src={cainfo4} className="card-img-top" alt="..." />
-                  <div className="card-body">
+                  <img
+                    src={cainfo4}
+                    className="cainfo-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div className="card-body cainfo-body">
                     <h5 className="card-heading cainfo-heading">Travel</h5>
                     <p className="card-text cainfo-text">
                       Discover exciting domestic and international travel

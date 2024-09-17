@@ -4,7 +4,7 @@
 }
 
 .catravel-heading {
-  padding: 0% 10% 3% 10%;
+  padding: 0% 10% 0% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,4 +59,51 @@
   padding: 2%;
   font-size: 1.5vw;
   text-align: center;
+}
+
+.catravel-marquee {
+  /*   overflow: hidden; */
+}
+
+.catravel-mqcontent {
+  display: flex;
+  animation: scrolling 30s linear infinite;
+}
+
+.catravel-mqitem {
+  flex: 0 0 16vw;
+  margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+}
+
+.catravel-mqitem img {
+  display: block;
+  width: 100%;
+  /*   padding: 0 20px; */
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-144vw);
+  }
+}
+
+.catravel-item {
+  background-color: blue;
+}
+
+.catravel-top {
+  background-color: aqua;
+  height: 50%;
+  width: 100%;
+}
+
+.catravel-bottom {
+  background-color: rgb(117, 23, 86);
+  height: 50%;
+  width: 100%;
 }

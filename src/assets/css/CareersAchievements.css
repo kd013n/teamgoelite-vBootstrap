@@ -10,13 +10,16 @@
 }
 
 .caach-carcontainer {
-  grid-area: 1 / 1 / 4 / 5;
+  grid-area: 1 / 1 / 4 / 6;
   height: 100%;
-  padding-right: 10%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .caach-primer {
-  grid-area: 1 / 5 / 4 / 11;
+  grid-area: 1 / 6 / 4 / 11;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,12 +30,13 @@
 .caach-title {
   font-size: 4vw;
   font-weight: 800;
+  line-height: 0.9;
   color: #b9171f !important;
   text-align: start;
 }
 
 .caach-desc {
-  font-size: 1.75vw;
+  font-size: 1.15vw;
   line-height: 1.15;
   color: #d1d6e0 !important;
   padding-left: 1%;
@@ -42,7 +46,7 @@
 }
 
 .caach-fyi {
-  height: 30%;
+  height: 25%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -61,27 +65,72 @@
   color: #a4a7af !important;
   padding-left: 3%;
   text-align: justify;
-  font-size: 1.15vw;
+  font-size: 0.85vw;
   font-style: italic;
 }
 
 .caach-carousel {
-  padding: 3% 0% 3% 15%;
+  padding-left: 15%;
+  height: 45vh;
 }
 
 .caach-card {
   background-color: #090d14;
-  height: calc(45vh - 6%);
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.caach-body {
+  padding-left: 5%;
+}
+
+.caach-img-left {
+  object-fit: cover;
+  width: 70%;
 }
 
 .caach-heading {
-  font-size: 1.8vw;
+  font-size: 2vw;
   font-weight: 800;
-  margin: 0;
+  line-height: 0.9;
+  margin-bottom: 2.5%;
 }
 
 .caach-text {
   font-size: 1vw;
   line-height: 1.25;
   margin: 0;
+}
+
+.caach-btn-grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  padding-top: 5%;
+}
+
+.caach-btn {
+  min-width: 9.5vw;
+  height: 3vw;
+  font-size: 1vw;
+  font-weight: 500;
+  background-color: #b9171f;
+  color: #d1d6e0;
+  border: none;
+  padding: 0 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  gap: 0.75vw;
+  transition: all 100ms ease-in-out;
+}
+
+.caach-btn:hover {
+  background-color: #d31d26 !important;
+  transform: scale(1.05);
 }
