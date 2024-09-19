@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "../assets/css/DashboardAboutMini.css";
+
+import "../assets/scss/DashboardAboutMini.scss";
 
 import imagerand from "../assets/images/db-banner1.png";
 import imagerand2 from "../assets/images/db-banner2.png";

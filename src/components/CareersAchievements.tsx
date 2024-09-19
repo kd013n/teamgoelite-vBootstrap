@@ -1,6 +1,7 @@
-import "../assets/css/CareersAchievements.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
+
+import "../assets/scss/CareersAchievements.scss";
 
 import caach1 from "../assets/images/ca-info1.png";
 import caach2 from "../assets/images/ca-info2.png";

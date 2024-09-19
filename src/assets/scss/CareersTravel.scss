@@ -1,0 +1,159 @@
+.catravel-container {
+  background-color: #0f1827;
+  padding: 8% 0;
+}
+
+.catravel-heading {
+  padding: 0% 10% 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catravel-tge-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.15vw;
+}
+
+.catravel-tge-group p {
+  font-size: 5.25vw;
+}
+
+.catravel-tge-group > .catravel-title {
+  color: #91949b !important;
+}
+
+.catravel-tge-group > .catravel-title2 {
+  -webkit-text-stroke: 0.2vw #91949b;
+  -webkit-text-fill-color: #9b1319;
+}
+
+.catravel-title {
+  font-size: 7vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.7;
+  color: #d1d6e0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.catravel-title2 {
+  font-size: 7vw;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.7;
+  -webkit-text-stroke: 0.2vw #d1d6e0;
+  -webkit-text-fill-color: #b9171f;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.catravel-subtitle {
+  padding: 2%;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.catravel-left {
+  display: inline-block;
+  position: relative;
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+
+  @for $i from 0 to 7 {
+    div:nth-child(#{$i + 1}) {
+      animation-delay: calc(#{$i} * 5.14s);
+    }
+  }
+}
+
+@keyframes scrollingleft {
+  0% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    left: -50vw;
+  }
+}
+
+.catravel-right {
+  display: inline-block;
+  position: relative;
+  width: 100vw;
+  height: 15vw;
+  overflow: hidden;
+
+  @for $i from 0 to 7 {
+    div:nth-child(#{$i + 1}) {
+      animation-delay: calc(#{$i} * 5.71s);
+    }
+  }
+}
+
+@keyframes scrollingright {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+    right: -50vw;
+  }
+}
+
+.catravel-leftitem {
+  height: 13.5vw;
+  width: 20vw;
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  left: calc(100% + 50vw);
+  animation: 36s linear scrollingleft infinite;
+}
+
+.catravel-rightitem {
+  height: 13.5vw;
+  width: 20vw;
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  right: calc(100% + 50vw);
+  animation: 40s linear scrollingright infinite;
+}
+
+.catravel-leftitem > img,
+.catravel-rightitem > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.catravel-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 0.95;
+
+  height: 100%;
+  width: 100%;
+  background-color: #060b13ec;
+  opacity: 0;
+  margin: 0;
+
+  color: #d1d6e0;
+  font-size: 3.75vw;
+  font-weight: 200;
+  transition: all 200ms ease-in-out;
+}
+
+.catravel-leftitem:hover > .catravel-text,
+.catravel-rightitem:hover > .catravel-text {
+  opacity: 1;
+}

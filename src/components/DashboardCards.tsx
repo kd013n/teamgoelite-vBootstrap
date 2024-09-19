@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "../assets/css/DashboardCards.css";
+
+import "../assets/scss/DashboardCards.scss";
 
 import imgcareers from "../assets/images/ca-banner1.png";
 import imgproducts from "../assets/images/pr-banner1.png";

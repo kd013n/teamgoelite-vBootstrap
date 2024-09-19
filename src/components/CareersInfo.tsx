@@ -1,6 +1,7 @@
-import "../assets/css/CareersInfo.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
+
+import "../assets/scss/CareersInfo.scss";
 
 import cainfo1 from "../assets/images/ca-info1.png";
 import cainfo2 from "../assets/images/ca-info2.png";

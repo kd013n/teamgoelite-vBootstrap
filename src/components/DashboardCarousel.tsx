@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
-import "../assets/css/DashboardCarousel.css";
+import "../assets/scss/DashboardCarousel.scss";
 
 import dbbanner1 from "../assets/images/db-banner1.png";
 import dbbanner2 from "../assets/images/db-banner2.png";

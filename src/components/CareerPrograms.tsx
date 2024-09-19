@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import { Link } from "react-router-dom";
 
-import "../assets/css/CareerPrograms.css";
+import "../assets/scss/CareerPrograms.scss";
 
 import casidebanner1 from "../assets/images/ca-sidebanner1.jpg";
 import casidebanner2 from "../assets/images/ca-sidebanner2.jpg";
@@ -54,8 +54,7 @@ export default function CareerPrograms() {
                       Financial Advisors Hiring Program
                     </p>
                     <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Assumenda doloribus quae recusandae exercitationem sint
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </p>
                   </Link>
                   <Link
@@ -68,8 +67,7 @@ export default function CareerPrograms() {
                   >
                     <p className="link-title">Associate Branch Head Program</p>
                     <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Assumenda doloribus quae recusandae exercitationem sint
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </p>
                   </Link>
                   <Link
@@ -82,8 +80,7 @@ export default function CareerPrograms() {
                   >
                     <p className="link-title">Manager Hiring Program</p>
                     <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Assumenda doloribus quae recusandae exercitationem sint
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </p>
                   </Link>
                   <Link
@@ -96,8 +93,7 @@ export default function CareerPrograms() {
                   >
                     <p className="link-title">Manager Development Program</p>
                     <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Assumenda doloribus quae recusandae exercitationem sint
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </p>
                   </Link>
                 </div>

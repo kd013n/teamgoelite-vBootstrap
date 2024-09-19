@@ -1,10 +1,10 @@
 .caprograms-container {
   background-color: #0f1827;
-  padding: 8% 0;
+  padding: 5% 0;
 }
 
 .caprograms-heading {
-  padding: 0% 10% 3% 10%;
+  padding: 3% 10% 3% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,15 +103,16 @@
   border: transparent 0px solid;
 
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  padding: 3%;
 }
 
 .link-title {
   height: 100%;
-  grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 1 / 2 / 5;
   font-size: 1.5vw;
   font-weight: 800;
   line-height: 1;
@@ -121,17 +122,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: left;
 }
 
 .link-subtext {
   height: 100%;
-  grid-area: 1 / 3 / 2 / 6;
+  grid-area: 1 / 5 / 2 / 8;
   font-size: 1vw;
   line-height: 1.2;
   display: inline-block;
   color: #91949b !important;
   margin-top: 0;
-  padding-left: 1.5vw;
   display: flex;
   flex-direction: row;
   align-items: center;

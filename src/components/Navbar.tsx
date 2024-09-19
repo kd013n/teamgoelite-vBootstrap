@@ -1,6 +1,7 @@
-import "../assets/css/Navbar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+
+import "../assets/scss/Navbar.scss";
 
 import { Link } from "react-router-dom";
 

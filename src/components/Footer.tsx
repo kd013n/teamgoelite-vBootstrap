@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import "../assets/css/Footer.css";
 
-import "../assets/css/Footer.css";
+import "../assets/scss/Footer.scss";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
