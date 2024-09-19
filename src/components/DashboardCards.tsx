@@ -11,7 +11,11 @@ export default function DashboardCards() {
   return (
     <>
       <div className="container-fluid dashboardcards-container">
-        <p className="dashboardcards-title">Explore Team Go Elite</p>
+        <div className="dashboardcards-title-group">
+          <p className="dashboardcards-title">Explore Team </p>
+          <p className="dashboardcards-title2">Go</p>
+          <p className="dashboardcards-title"> Elite</p>
+        </div>
         <div className="cards-container">
           <div id="carouselExample" className="carousel slide cards-carousel">
             <div className="carousel-inner cards-inner">
