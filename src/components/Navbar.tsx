@@ -44,9 +44,9 @@ export default function Navbar() {
                 </Link>
                 <ul className="dropdown-menu d-none">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link to="/careers/programs" className="dropdown-item">
                       Career Programs
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">

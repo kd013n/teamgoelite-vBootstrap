@@ -10,6 +10,8 @@ import Products from "../src/pages/Products.tsx";
 import Support from "../src/pages/Support.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
+import CaPrograms from "./components/CareerPrograms.tsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +22,7 @@ const router = createBrowserRouter([
     path: "/careers",
     element: <Careers />,
   },
+  { path: "/careers/programs", element: <CaPrograms /> },
   {
     path: "/products",
     element: <Products />,

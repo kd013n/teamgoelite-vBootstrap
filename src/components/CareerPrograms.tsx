@@ -12,7 +12,9 @@ import casidebanner4 from "../assets/images/ca-sidebanner4.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const chevronRight = <FontAwesomeIcon icon={faChevronRight} fade />;
+const chevronRight = (
+  <FontAwesomeIcon icon={faChevronRight} className="chevron-right" fade />
+);
 
 export default function CareerPrograms() {
   return (
@@ -50,12 +52,15 @@ export default function CareerPrograms() {
                     role="tab"
                     aria-controls="list-home"
                   >
-                    <p className="link-title">
-                      Financial Advisors Hiring Program
-                    </p>
-                    <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                    </p>
+                    <div className="link-heading">
+                      <p className="link-title">
+                        Financial Advisors Hiring Program
+                      </p>
+                      <p className="link-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                      </p>
+                    </div>
+                    <p className="link-chevron">{chevronRight}</p>
                   </Link>
                   <Link
                     className="list-group-item list-group-item-action ca-links"
@@ -65,10 +70,15 @@ export default function CareerPrograms() {
                     role="tab"
                     aria-controls="list-profile"
                   >
-                    <p className="link-title">Associate Branch Head Program</p>
-                    <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                    </p>
+                    <div className="link-heading">
+                      <p className="link-title">
+                        Associate Branch Head Program
+                      </p>
+                      <p className="link-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                      </p>
+                    </div>
+                    <p className="link-chevron">{chevronRight}</p>
                   </Link>
                   <Link
                     className="list-group-item list-group-item-action ca-links"
@@ -78,10 +88,13 @@ export default function CareerPrograms() {
                     role="tab"
                     aria-controls="list-messages"
                   >
-                    <p className="link-title">Manager Hiring Program</p>
-                    <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                    </p>
+                    <div className="link-heading">
+                      <p className="link-title">Manager Hiring Program</p>
+                      <p className="link-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                      </p>
+                    </div>
+                    <p className="link-chevron">{chevronRight}</p>
                   </Link>
                   <Link
                     className="list-group-item list-group-item-action ca-links"
@@ -91,10 +104,13 @@ export default function CareerPrograms() {
                     role="tab"
                     aria-controls="list-settings"
                   >
-                    <p className="link-title">Manager Development Program</p>
-                    <p className="link-subtext">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                    </p>
+                    <div className="link-heading">
+                      <p className="link-title">Manager Development Program</p>
+                      <p className="link-subtext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                      </p>
+                    </div>
+                    <p className="link-chevron">{chevronRight}</p>
                   </Link>
                 </div>
               </div>

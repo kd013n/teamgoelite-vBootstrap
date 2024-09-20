@@ -107,41 +107,53 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding: 3%;
+  padding: 5%;
 }
 
-.link-title {
+.link-heading {
   height: 100%;
-  grid-area: 1 / 1 / 2 / 5;
-  font-size: 1.5vw;
-  font-weight: 800;
-  line-height: 1;
-  display: inline-block;
-  margin: 0;
+  grid-area: 1 / 1 / 2 / 7;
+
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   justify-content: center;
   text-align: left;
 }
 
+.link-title {
+  font-size: 1.35vw;
+  font-weight: 800;
+  line-height: 1;
+
+  margin: 0;
+}
+
 .link-subtext {
-  height: 100%;
-  grid-area: 1 / 5 / 2 / 8;
+  margin: 0;
+  padding-top: 1%;
+
   font-size: 1vw;
-  line-height: 1.2;
-  display: inline-block;
+  line-height: 1.25;
   color: #91949b !important;
-  margin-top: 0;
+}
+
+.link-chevron {
+  height: 100%;
+  grid-area: 1 / 7 / 2 / 8;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
+  font-size: 1.35vw;
 }
 
-.active > .link-title,
-.active > .link-subtext {
-  color: #0b111b !important;
+.active > .link-heading,
+.active > .link-chevron {
+  * {
+    color: #0b111b !important;
+  }
 }
 
 .caprograms-genview {

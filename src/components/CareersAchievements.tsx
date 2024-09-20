@@ -3,6 +3,8 @@ import "bootstrap/dist/js/bootstrap.js";
 
 import "../assets/scss/CareersAchievements.scss";
 
+import { Link } from "react-router-dom";
+
 import caach1 from "../assets/images/ca-info1.png";
 import caach2 from "../assets/images/ca-info2.png";
 import caach3 from "../assets/images/ca-info3.png";
@@ -89,9 +91,15 @@ export default function CareersAchievements() {
                       Achieve your financial dreams faster than ever before.
                     </p>
                     <div className="caach-btn-grp">
-                      <button className="caach-btn rounded">
-                        AXA Prime {arrowUpRightFromSquare}
-                      </button>
+                      <Link
+                        to="https://www.axa.com.ph/axaprime"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="caach-btn rounded">
+                          AXA Prime {arrowUpRightFromSquare}
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
