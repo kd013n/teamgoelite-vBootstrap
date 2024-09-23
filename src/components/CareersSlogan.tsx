@@ -3,9 +3,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 import "../assets/scss/CareersSlogan.scss";
 
-import imagerand from "../assets/images/db-banner1.png";
-import imagerand2 from "../assets/images/db-banner2.png";
-import imagerand3 from "../assets/images/db-banner3.png";
+import imagerand from "../assets/images/db-banners/db-banner1.png";
+import imagerand2 from "../assets/images/db-banners/db-banner2.png";
+import imagerand3 from "../assets/images/db-banners/db-banner3.png";
 
 export default function CareersSlogan() {
   return (

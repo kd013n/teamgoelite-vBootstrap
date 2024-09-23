@@ -14,7 +14,7 @@ const search_icon = <FontAwesomeIcon icon={faMagnifyingGlass} />;
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-dark navbar-expand-lg h-25 z-3 position-sticky">
+      <nav className="main-navbar navbar navbar-dark navbar-expand-lg z-3 position-sticky">
         <div className="container-fluid navbar-all">
           <Link to="/" className="navbar-brand">
             <img className="nav-logo" src={tgeLogo} alt="TeamGoElite" />

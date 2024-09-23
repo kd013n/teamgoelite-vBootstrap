@@ -1,4 +1,84 @@
 .prfna-container {
   background-color: #0b111b;
-  height: 50vh;
+  height: 30vw;
+}
+
+.prfna-itemcontainer {
+  height: 30vw;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.prfna-banner {
+  grid-area: 1 / 1 / 4 / 3;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.prfna-banner > img {
+  width: 35vw;
+  object-fit: cover;
+}
+
+.prfna-heading {
+  grid-area: 1 / 3 / 4 / 6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  padding: 0 10% 0 5%;
+}
+
+.prfna-title {
+  font-size: 4vw;
+  font-weight: 800;
+  color: #b9171f !important;
+  margin: 0;
+}
+
+.prfna-subtitle {
+  font-size: 1.15vw;
+  color: #d1d6e0 !important;
+}
+
+.prfna-btngrp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 3%;
+  padding-top: 3%;
+}
+
+.prfna-btn {
+  min-width: 13.5vw;
+  background-color: #b9171f !important;
+  padding: 1.5% 3%;
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.15vw;
+  transition: all 100ms ease-in-out;
+}
+
+.prfna-btn:hover {
+  background-color: #d31d26 !important;
+  transform: scale(1.05);
 }

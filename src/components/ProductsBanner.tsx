@@ -1,6 +1,6 @@
 import "../assets/scss/PageBanner.scss";
 
-import prbanner1 from "../assets/images/pr-banner1.png";
+import prbanner1 from "../assets/images/page-banners/pr-banner1.png";
 
 export default function ProductsBanner() {
   return (

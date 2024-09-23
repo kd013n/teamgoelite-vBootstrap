@@ -3,10 +3,10 @@ import "bootstrap/dist/js/bootstrap.js";
 
 import "../assets/scss/CareersInfo.scss";
 
-import cainfo1 from "../assets/images/ca-info1.png";
-import cainfo2 from "../assets/images/ca-info2.png";
-import cainfo3 from "../assets/images/ca-info3.png";
-import cainfo4 from "../assets/images/ca-info4.png";
+import cainfo1 from "../assets/images/ca-info/ca-info1.png";
+import cainfo2 from "../assets/images/ca-info/ca-info2.png";
+import cainfo3 from "../assets/images/ca-info/ca-info3.png";
+import cainfo4 from "../assets/images/ca-info/ca-info4.png";
 
 export default function CareersInfo() {
   return (

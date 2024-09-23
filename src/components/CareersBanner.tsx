@@ -1,6 +1,6 @@
 import "../assets/scss/PageBanner.scss";
 
-import cabanner1 from "../assets/images/ca-banner1.png";
+import cabanner1 from "../assets/images/page-banners/ca-banner1.png";
 
 export default function CareersBanner() {
   return (

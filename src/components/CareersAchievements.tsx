@@ -5,9 +5,9 @@ import "../assets/scss/CareersAchievements.scss";
 
 import { Link } from "react-router-dom";
 
-import caach1 from "../assets/images/ca-info1.png";
-import caach2 from "../assets/images/ca-info2.png";
-import caach3 from "../assets/images/ca-info3.png";
+import caach1 from "../assets/images/ca-info/ca-info1.png";
+import caach2 from "../assets/images/ca-info/ca-info2.png";
+import caach3 from "../assets/images/ca-info/ca-info3.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";

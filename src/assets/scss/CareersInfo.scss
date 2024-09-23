@@ -1,6 +1,6 @@
 .container-cainfo {
   background-color: #0b111b;
-  height: 50vh;
+  height: 25vw;
 
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -44,11 +44,11 @@
 
 .cainfo-carousel {
   padding-right: 15%;
-  height: 40vh;
+  height: 18vw;
 }
 
 .cainfo-card {
-  height: 40vh;
+  height: 18vw;
   background-color: #090d14;
 }
 
@@ -70,5 +70,5 @@
 .cainfo-text {
   font-size: 0.85vw;
   line-height: 1.25;
-  margin-top: 1vh;
+  margin-top: 0.5vw;
 }

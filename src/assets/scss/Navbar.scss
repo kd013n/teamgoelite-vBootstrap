@@ -5,8 +5,12 @@
   user-select: none;
 }
 
-.navbar {
+.main-navbar {
+  height: 4.5vw;
   background-color: #111d32 !important;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
 }
 
 .nav-item {

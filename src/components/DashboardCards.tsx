@@ -3,9 +3,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 import "../assets/scss/DashboardCards.scss";
 
-import imgcareers from "../assets/images/ca-banner1.png";
-import imgproducts from "../assets/images/pr-banner1.png";
-import imgsupport from "../assets/images/sp-banner1.png";
+import imgcareers from "../assets/images/page-banners/ca-banner1.png";
+import imgproducts from "../assets/images/page-banners/pr-banner1.png";
+import imgsupport from "../assets/images/page-banners/sp-banner1.png";
 
 export default function DashboardCards() {
   return (

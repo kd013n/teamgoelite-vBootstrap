@@ -1,6 +1,6 @@
 import "../assets/scss/PageBanner.scss";
 
-import spbanner1 from "../assets/images/sp-banner1.png";
+import spbanner1 from "../assets/images/page-banners/sp-banner1.png";
 
 export default function SupportBanner() {
   return (

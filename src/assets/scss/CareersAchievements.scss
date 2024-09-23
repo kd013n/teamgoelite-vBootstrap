@@ -1,6 +1,6 @@
 .container-caach {
   background-color: #0b111b;
-  height: 50vh;
+  height: 25vw;
 
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -71,12 +71,12 @@
 
 .caach-carousel {
   padding-left: 15%;
-  height: 40vh;
+  height: 18vw;
 }
 
 .caach-card {
   background-color: #090d14;
-  height: 40vh;
+  height: 18vw;
   display: flex;
   flex-direction: row;
 }
